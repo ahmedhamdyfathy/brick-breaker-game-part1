@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  color: #6e4e8f;
+}
+body {
+  background-color: rgb(193, 161, 223);
+}
+
+#canvas {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  border: 2px solid rgb(196, 150, 150);
+  background-color: rgb(216, 191, 191);
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+}
+.high-score {
+  /* background-color: red;  */
+  position: absolute;
+  top:0.8rem;
+  left: 40%;
+  width: 20%;
+  color: wheat;
+  font-size: 20px;
+}
+
+.reset {
+  width: 80%;
+  /* background-color: red; */
+  position: absolute;
+  top: 95%;
+  left: 10%;
+  cursor: pointer;
+  text-align: center;
+}
